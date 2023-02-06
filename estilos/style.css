@@ -37,6 +37,9 @@ section#login {
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.445);
+
+    transition: width .3s, heigh .3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
@@ -47,7 +50,7 @@ section#login > div#imagem {
     height: 200px;
 }
 
-section#login > div#formulatio {
+section#login > div#formulario {
     display: block;
     padding: 10px;
 }
